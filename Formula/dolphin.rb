@@ -1,7 +1,7 @@
 class Dolphin < Formula
   desc ""
   homepage "https://dolphin.userconnect.us"
-  version "0.1.16"
+  version "0.1.17"
 
   on_macos do
     if Hardware::CPU.intel?
