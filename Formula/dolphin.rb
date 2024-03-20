@@ -1,20 +1,20 @@
 class Dolphin < Formula
   desc ""
   homepage "https://dolphin.userconnect.us"
-  version "0.2.2"
+  version "0.2.3"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/therootlab/dolphin-hq/releases/download/0.2.2/dolphin-macos-x64.zip"
-      sha256 "43b0ba7b2bb9f8db78e65800b8d87536254aa4b9fcd08fb92ce56c336d494cf2"
+      url "https://github.com/therootlab/dolphin-hq/releases/download/0.2.3/dolphin-macos-x64.zip"
+      sha256 "2674df361f0e8d4bf06e279c50ac5794872a0fcba5a3994594b695dcd7c186d7"
 
       def install
         bin.install "dolphin"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/therootlab/dolphin-hq/releases/download/0.2.2/dolphin-macos-arm64.zip"
-      sha256 "caa18c4210b59187272786f50d7b3c637a75b1b36f0b059b20e03ef71aeff6d4"
+      url "https://github.com/therootlab/dolphin-hq/releases/download/0.2.3/dolphin-macos-arm64.zip"
+      sha256 "41c917506c98f7cb28973b3153c0b90fd8372f774fce3c6461541fe5e1ef7f4b"
 
       def install
         bin.install "dolphin"
